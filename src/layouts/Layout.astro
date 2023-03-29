@@ -23,6 +23,7 @@ const { title } = Astro.props as Props
     <meta name="theme-color" content="#f6f8fa" />
     <script src="/src/pwa.ts"></script>
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+    <script async defer data-website-id="d52d8409-9c1d-4e3b-9405-0ad9d407b5bc" src="https://syno.lipanpanx.com:65413/umami.js"></script>
   </head>
   <body>
     <slot />
